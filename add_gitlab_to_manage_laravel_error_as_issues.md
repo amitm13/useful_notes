@@ -46,7 +46,11 @@ In register function -> reportable -> add below code
 
 `$errorMessage .= '<br/><strong>Line No:</strong>' . $e->getLine();`
 
-`GitLab::issues()->create(config('gitlab.project_id'), ['description' => $errorMessage, 'title' => 'Runtime Error', 'labels' => 'Issues']);`
+`$projectIsuses = collect(\GrahamCampbell\GitLab\Facades\GitLab::Projects()->issues(config('gitlab.project_id'),['state'=>'opened']))->pluck('description')->toArray();`
+
+`if (!in_array($errorMessage, $projectIsuses)) {
+   GitLab::issues()->create(config('gitlab.project_id'), ['description' => $errorMessage, 'title' => 'Runtime Error', 'labels' => 'Issues']);
+ }`
 ## Environment Variables
 
 add this two Environment Variables in you .env file
