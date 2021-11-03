@@ -38,6 +38,8 @@ List of vue js project to become a vue expert
 
 [🥇 Chat Website](https://www.youtube.com/watch?v=ifOzAyR1cG4)
 
+---
+
 **Expert project ideas**
 
 [🏆 DevMeetUp Website](https://www.youtube.com/watch?v=FXY1UyQfSFw&list=PL55RiY5tL51qxUbODJG9cgrsVd7ZHbPrt&index=2&t=0s)
