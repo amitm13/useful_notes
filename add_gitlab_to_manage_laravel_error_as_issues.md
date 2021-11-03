@@ -66,3 +66,7 @@ Contributions are always welcome!
 
 if you have suggestion create PR on this repo.
 
+
+## Authors
+
+- [@amit_m13](https://twitter.com/amit_m13)
