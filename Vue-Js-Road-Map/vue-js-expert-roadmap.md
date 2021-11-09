@@ -6,7 +6,7 @@ List of vue js project to become a vue expert
 
 **Starter Project ideas**
 
-[🥉 Countdown](Vue-Js-Road-Map/countdown)
+[🥉 Countdown](countdown)
 
 [🥉 Todo App](https://www.youtube.com/watch?v=-X2hP9pOVss)
 
