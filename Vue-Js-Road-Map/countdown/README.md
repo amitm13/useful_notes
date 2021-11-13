@@ -1,6 +1,8 @@
 # countdown
 this is first basic project to do kick start vue js expert road map. In this project we will create a countdow timer with component and include it in our main App.vue file.
 
+![countdown-app](vue-countdown.png)
+
 ## Project setup
 ```
 npm install
